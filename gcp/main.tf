@@ -8,8 +8,8 @@ resource "google_storage_bucket" "MULTI_REGIONAL" {
   location = "us"
 }
 
-resource "google_storage_bucket" "MULTI_REGIONAL3" {
-  name     = "testspaceliftmatsumoto3"
+resource "google_storage_bucket" "MULTI_REGIONAL2" {
+  name     = "testspaceliftmatsumoto2"
   storage_class = "MULTI_REGIONAL"
   location = "us"
 }
