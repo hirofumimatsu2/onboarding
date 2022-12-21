@@ -7,3 +7,9 @@ resource "google_storage_bucket" "MULTI_REGIONAL" {
   storage_class = "MULTI_REGIONAL"
   location = "us"
 }
+
+resource "google_storage_bucket" "MULTI_REGIONAL3" {
+  name     = "testspaceliftmatsumoto3"
+  storage_class = "MULTI_REGIONAL"
+  location = "us"
+}
